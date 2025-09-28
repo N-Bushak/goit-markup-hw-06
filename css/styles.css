@@ -240,7 +240,6 @@ padding-bottom: 40px;
     display: flex;
     padding-right: 24px;
     justify-content: space-between;
-    /* gap: 40px; */
 }
 
 .mobile-icons-item {
@@ -309,7 +308,6 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  /* text-align: center; */
   background-color: #4d5ae5;
   padding: 16px 32px;
   display: block;
@@ -366,10 +364,6 @@ li {
   flex-wrap: wrap;
   gap: 72px;
 }
-
-/* .about-us-item {
-  padding-bottom: 48px;
-} */
 
 .icon-container {
   display: none;
@@ -1077,7 +1071,7 @@ display: none;
   margin: 0 auto 48px;
   }
 
- .about-us-item {
+.about-us-item {
   padding-bottom: 0;
 }
 
