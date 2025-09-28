@@ -548,12 +548,15 @@ li {
 
 .footer-logo {
   display: inline-block;
-  padding: 0;
   margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+}
+
+.logo.footer-logo {
+  padding: 0;
 }
 
 .footer-text {
