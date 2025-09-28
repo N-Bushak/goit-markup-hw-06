@@ -103,7 +103,6 @@ header {
 }
 
 .header-logo {
-  /* padding: 16px 0; */
   display: block;
 }
 
@@ -302,7 +301,7 @@ h1 {
 
 .solutions-title {
   max-width: 216px;
-  margin: 72px 52px;
+  margin: 0 auto 72px;
 }
 
 .order-button {
@@ -359,30 +358,36 @@ li {
 
 .about-us {
   padding-top: 96px;
-  padding-bottom: 48px;
+  padding-bottom: 96px;
 }
 
 .about-us-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 
-.about-us-item {
+/* .about-us-item {
   padding-bottom: 48px;
-}
+} */
 
 .icon-container {
   display: none;
 }
 
 .about-us-subtitle {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.about-us-desc {
+  font-weight: 500;
 }
 
 
@@ -543,7 +548,7 @@ li {
   align-items: baseline;
   text-align: center;
   gap: 72px;
-  padding: 0;
+  padding: 0 16px;
 }
 
 .footer-logo {
@@ -564,7 +569,6 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd; 
-  padding-left: 16px;
 }
 
 .footer-text-social {
@@ -880,7 +884,7 @@ align-items: center;
 padding: 24px 0;
 }
 
-.logo-part {
+.header-logo {
   margin-right: 120px;
 }
 
@@ -975,6 +979,10 @@ display: none;
   margin: 0 auto 36px;
   }
 
+  .about-us-list {
+  gap: 72px 24px;
+}
+
 .about-us-item {
   width: calc((100% - 24px) / 2);
 }
@@ -1000,22 +1008,19 @@ display: none;
   width: calc((100% - 24px) / 2);
 }
 
-  .page-footer {
-    padding-right: 108px;
-    padding-left: 108px;
-  }
-
   .footer-container {
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
     text-align: left;
     justify-content: left;
+    padding-right: 108px;
+    padding-left: 108px;
 }
 
   .footer-text {
   max-width: 264px;
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 
 .footer-input {
@@ -1035,7 +1040,7 @@ display: none;
   padding: 0 15px;
   }
 
-  .logo-part {
+  .header-logo {
   margin-right: 76px;
 }  
 
@@ -1079,6 +1084,17 @@ display: none;
   .about-us {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.about-us-subtitle {
+  font-weight: 500;
+}
+
+  .about-us-desc {
+  font-weight: 400;
+}
+  .about-us-list {
+  gap: 24px;
 }
 
   .about-us-item {
