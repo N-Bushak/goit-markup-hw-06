@@ -1006,8 +1006,11 @@ display: none;
   }
 
   .footer-container {
-  text-align: left;
-  justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    text-align: left;
+    justify-content: left;
 }
 
   .footer-text {
